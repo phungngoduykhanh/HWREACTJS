@@ -4,12 +4,18 @@ import './index.css';
 import Header from './Header/Header';
 import Statee from './App/App';
 import Count from './components/hook/Count';
+import Form from './components/hook/Form';
+import App from './App/App';
+// import Covid from './components/Covid/Covid';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Header/>
     <Statee/> */}
-    <Count/>
+    {/* <Count/> */}
+    {/* <Form/> */}
+    <App/>
+    {/* <Covid/> */}
   </React.StrictMode>
 );
 
