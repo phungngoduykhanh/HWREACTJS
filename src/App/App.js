@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Form from "../body/Form";
+import Form from "../components/FormCount/Form";
 
 function App() {
   return (
